@@ -14,7 +14,7 @@ const Home = () => {
       <Explore />
       <Unlock />
       <Start />
-      <Derivates />
+      {/* <Derivates /> */}
     </main>
   )
 }
