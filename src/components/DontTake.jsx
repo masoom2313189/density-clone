@@ -38,10 +38,10 @@ const DontTake = () => {
         Hear it from our expert community of traders who have made insane
         amounts in a short amount of time
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-center lg:p-10 py-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-center lg:p-10 py-10">
         {UserDetails.map(item => (
           <div
-            className="bg-gray-100 rounded-lg pl-10 pt-10 text-start"
+            className="bg-gray-100 rounded-lg pl-10 pt-10 text-start max-w-[350px] mx-auto"
             key={item.id}
           >
             <p className="w-8/12">{item.desc}</p>
@@ -51,12 +51,7 @@ const DontTake = () => {
                 <p className="font-bold mt-3">{item.position}</p>
                 <FaXTwitter className="mt-3 text-2xl" />
               </div>
-              <img
-                src={item.image}
-                alt=""
-                className="object-fill"
-                width={"60%"}
-              />
+              <img src={item.image} alt="" className="object-fill w-32 md:42" />
             </div>
           </div>
         ))}

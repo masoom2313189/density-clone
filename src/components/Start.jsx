@@ -10,7 +10,7 @@ const Start = () => {
         <span className="block md:inline"> Earn Big.</span>
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 justify-center gap-10 mt-10">
-        <div className="mx-auto w-[400px] bg-gray-200 py-10 px-20">
+        <div className="mx-auto w-[300px] bg-gray-200 py-10 px-20">
           <img
             src={DepositImg}
             alt=""
@@ -19,7 +19,7 @@ const Start = () => {
           />
           <h1 className="text-3xl lg:text-4xl font-bold">Deposit Bonus</h1>
         </div>
-        <div className="mx-auto w-[400px] bg-gray-200 py-10 px-20">
+        <div className="mx-auto w-[300px] bg-gray-200 py-10 px-20">
           <img
             src={DedicatedImg}
             alt=""

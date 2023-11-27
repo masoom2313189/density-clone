@@ -15,7 +15,7 @@ const Unlock = () => {
         </p>
       </div>
       {/* Second  */}
-      <div className="w-6/12 lg:w-10/12 mx-auto mt-10">
+      <div className="w-8/12 lg:w-10/12 mx-auto mt-10">
         <div className="border-solid border-2 border-yellow-200 rounded-[30px] p-10 lg:flex gap-10 justify-evenly">
           <span>
             <p className="font-bold text-xl">Same</p>
