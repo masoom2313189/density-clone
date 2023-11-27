@@ -7,7 +7,7 @@ const Navbar = () => {
     setClick(!click)
   }
   return (
-    <nav class="flex sticky items-center justify-between flex-wrap bg-gray-900 p-6 md:px-48">
+    <nav class="flex sticky top-0 items-center justify-between flex-wrap bg-gray-900 p-6 md:px-48">
       <div class="flex items-center flex-shrink-0 text-white mr-6">
         <img src={DensityLogo} alt="" width={"150px"} />
       </div>

@@ -5,6 +5,10 @@ import Explore from "./Explore"
 import Unlock from "./Unlock"
 import Start from "./Start"
 import Derivates from "./Derivates"
+import Backed from "./Backed"
+import DontTake from "./DontTake"
+import EarnMoney from "./EarnMoney"
+import Meet from "./Meet"
 
 const Home = () => {
   return (
@@ -14,7 +18,11 @@ const Home = () => {
       <Explore />
       <Unlock />
       <Start />
-      {/* <Derivates /> */}
+      <Derivates />
+      <Backed />
+      <DontTake />
+      <EarnMoney />
+      <Meet />
     </main>
   )
 }

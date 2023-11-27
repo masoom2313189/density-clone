@@ -1,5 +1,9 @@
 import React from "react"
-import DensityLogo from "../images/density.png"
+import DensityLogo from "../images/density_white.png"
+import { FaLinkedinIn } from "react-icons/fa"
+import { FaInstagram } from "react-icons/fa"
+import { FaXTwitter } from "react-icons/fa6"
+import { FaYoutube } from "react-icons/fa"
 
 const Footer = () => {
   return (
@@ -32,11 +36,17 @@ const Footer = () => {
             <a href="">Research Disclaimer</a>
           </li>
         </ul>
-        <p className="md:px-48 mt-10">
+        <p className="md:px-10 xl:px-48 mt-10">
           Density was started with the vision of democratising money for
           everyone. With the idea of derivatives made simple, use Density to
           maximise profits and a hassle free experience.
         </p>
+        <div className="flex text-2xl gap-10 justify-center mt-10">
+          <FaLinkedinIn />
+          <FaInstagram />
+          <FaXTwitter />
+          <FaYoutube />
+        </div>
       </div>
     </footer>
   )
