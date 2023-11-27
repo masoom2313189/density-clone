@@ -9,6 +9,7 @@ import Backed from "./Backed"
 import DontTake from "./DontTake"
 import EarnMoney from "./EarnMoney"
 import Meet from "./Meet"
+import Fixed from "./Fixed"
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <DontTake />
       <EarnMoney />
       <Meet />
+      <Fixed />
     </main>
   )
 }
